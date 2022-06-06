@@ -3,14 +3,16 @@
 * {
   outline: none;
 }
+.header
+{
+  display: flex;
+  width: 20vw;
 
+}
 strong {
   font-weight: 600;
 }
-.header
-{
-  width: 2vw;
-}
+
 .page {
   width: 100%;
   height: 100vh;
@@ -20,17 +22,31 @@ strong {
   letter-spacing: .03em;
   color: #212121;
 }
+@media (min-width: 1000px)
+{
+#logo
+{
+  padding: 15px 0px 0px 0px;
+}
+#lightbulb
+{
+  padding: 5px 0px 0px 0px;
+}
+
+
+}
 
 header {
   display: flex;
   position: fixed;
   width: 100%;
   height: 70px;
-  background: #212121;
+  background: #fdfdfd;
   color: #fff;
   justify-content: center;
   align-items: center;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+
 }
 
 main {
@@ -172,7 +188,7 @@ main small {
 }
 
 .small a {
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 400;
   color: #888;
 }
