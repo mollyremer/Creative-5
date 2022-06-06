@@ -16,7 +16,12 @@ strong {
 #welcome-text
 {
   text-align: center;
-
+}
+.content
+{
+  display:flex;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .page {
   width: 100%;
@@ -226,10 +231,6 @@ main small {
 #nav-container:focus-within #nav-content {
   transform: none;
 }
-
-
-
-
 
 
 * {
