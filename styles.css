@@ -6,13 +6,22 @@
 .header
 {
   display: flex;
-  width: 20vw;
+  width: 10vw;
 
 }
 strong {
   font-weight: 600;
 }
+.welcome
+{
+  display: flex;
+  align-content: center;
+}
+#welcome-text
+{
+  text-align: center;
 
+}
 .page {
   width: 100%;
   height: 100vh;
@@ -26,14 +35,29 @@ strong {
 {
 #logo
 {
-  padding: 15px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
 }
 #lightbulb
 {
   padding: 5px 0px 0px 0px;
+
 }
+#big-lightbulb
+{
+  width: 60vw;
 
+}
+}
+@media (max-width: 800px)
+{
+ .header
+{
+ width: 20vw;
+}
+ #logo
+{
 
+}
 }
 
 header {
@@ -175,7 +199,7 @@ main small {
 }
 
 #nav-content li a:hover {
-  color: #BF7497;
+  color: #086972;
 }
 
 #nav-content li:not(.small) + .small {
@@ -184,6 +208,7 @@ main small {
 
 .small {
   display: flex;
+
   align-self: center;
 }
 
