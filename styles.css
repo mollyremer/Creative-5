@@ -12,11 +12,7 @@
 strong {
   font-weight: 600;
 }
-.welcome
-{
-  display: flex;
-  align-content: center;
-}
+
 #welcome-text
 {
   text-align: center;
@@ -44,7 +40,8 @@ strong {
 }
 #big-lightbulb
 {
-  width: 60vw;
+
+  width: 10vw;
 
 }
 }
@@ -78,12 +75,17 @@ main {
   display: flex;
   flex-direction: column;
   height: 100%;
+  justify-content: center;
 }
 
-main > div {
-  margin: auto;
-  max-width: 600px;
+.content
+{
+ display: flex;
+ flex-direction: row;
+
 }
+
+
 
 main h2 span {
   color: #BF7497;
