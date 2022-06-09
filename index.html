@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <title>Document</title>
 </head>
 
@@ -18,9 +19,17 @@
           <img src="zilco-tech/zilco_tech_no_slogan.png">
         </div>
         <div id="lightbulb">
-          <img src="zilco-tech/lightbulb.png">
+          <img src="zilco-tech/lightbulb.png" onclick="lightBulb()">
         </div>
       </div>
+      <nav class="full-width-menu">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <div id="nav-container">
@@ -34,7 +43,7 @@
         <ul>
           <li><a href="#0">Home</a></li>
           <li><a href="#0">Services</a></li>
-          <li><a href="#0">Blog</a></li>
+
           <li><a href="#0">About</a></li>
           <li><a href="#0">Contact</a></li>
           <li class="small"><a href="#0" class="fa fa-twitter"></a><a href="#0" class="fa fa-facebook"></a><a href="#0"
@@ -51,13 +60,90 @@
           </div>
           <!-- <div class="color-block">
           </div> -->
+          <h1>All the technological solutions you need in one place. </h1>
+          <div class="sub-title>">
+            <h4> Discover what makes us different.</h4>
+            <button href = "#" class="click-here">Learn More</button>
+          </div>
         </div>
-        <div class="col2">
-          <h1>All the technological solutions you need in one place.</h1>
+        <div class="col2-container">
+          <div class="col2">
+            <img class="postgre" src="zilco-tech/Intaclustr_Service_PostSQL_Support_v2.png">
+          </div>
         </div>
       </div>
     </main>
+    <section class="solutions">
+      <div class="sol-banner">
+        <h1>Welcome to the jungle</h1>
+        <p> This is the place to be when you want to be partying with freinds and family.</p>
+      </div>
+      <div class="sol-col-container">
+        <table>
+          <tr>
+            <th><div class="sol-col">
+              <i class='fas fa-address-book' style='font-size:36px'></i>
+              <h2>HOORAY THIS IS THE DAY</h2>
+              <small>Welcome to the thing for the thing .</small>
+            </div></th>
+            <th><div class="sol-col">
+              <i class='fas fa-edit' style='font-size:36px'></i>
+              <h2>HOORAY THIS IS THE DAY</h2>
+              <small>Welcome to the thing for the thing .</small>
+            </div></th>
+            <th><div class="sol-col">
+              <i class='fas fa-project-diagram' style='font-size:36px'></i>
+              <h2>HOORAY THIS IS THE DAY</h2>
+              <small>Welcome to the thing for the thing .</small>
+            </div></th>
+          </tr>
+          <tr>
+            <td><div class="sol-col">
+              <i class='far fa-sticky-note' style='font-size:36px'></i>
+              <h2>HOORAY THIS IS THE DAY</h2>
+              <small>Welcome to the thing for the thing .</small>
+            </div></td>
+            <td><div class="sol-col">
+              <i class='fas fa-tasks' style='font-size:36px'></i>
+              <h2>HOORAY THIS IS THE DAY</h2>
+              <small>Welcome to the thing for the thing .</small>
+            </div></td>
+            <td><div class="sol-col">
+              <i class='fas fa-phone' style='font-size:36px'></i>
+              <h2>HOORAY THIS IS THE DAY</h2>
+              <small>Welcome to the thing for the thing .</small>
+            </div></td>
+          </tr>
+        </table>
+      </div>
+
+    </section>
+    <section class = "why-zilco">
+      <div class = "why-banner">
+        <h1> This is the why section</h1>
+      </div>
+      <table>
+        <th><div class = "why-col">
+         <h1>Go get 'em</h1> 
+        </div></th>
+        <th><div class = "why-col">
+          <h1>We got 'em</h1> 
+         </div></th>
+        <th><div class = "why-col">
+          <h1>We done got 'em good</h1> 
+         </div></th>
+      </table>
+
+    </section>
   </div>
+  <script>
+    var lightbulb = document.getElementById("lightbulb")
+
+    function lightBulb() {
+      lightbulb.style.color = "transparent";
+    }
+
+  </script>
 </body>
 
 </html>
