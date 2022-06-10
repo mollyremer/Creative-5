@@ -6,8 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  -->
   <script src="https://kit.fontawesome.com/2927513fc2.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js" crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
 
@@ -28,7 +30,7 @@
           <li><a href="">Services</a></li>
           <li><a href="">About</a></li>
           <li><a href="">Contact</a></li>
-          
+
         </ul>
       </nav>
     </header>
@@ -64,7 +66,7 @@
           <h1>All the technological solutions you need in one place. </h1>
           <div class="sub-title>">
             <h4> Discover what makes us different.</h4>
-            <button href = "#" class="click-here">Learn More</button>
+            <button href="#" class="click-here">Learn More</button>
           </div>
         </div>
         <div class="col2-container">
@@ -82,60 +84,89 @@
       <div class="sol-col-container">
         <table>
           <tr>
-            <th><div class="sol-col">
-              <i class="fa-solid fa-briefcase"style="font-size: 60px"></i>
-              <h2>HOORAY THIS IS THE DAY</h2>
-              <small>Welcome to the thing for the thing .</small>
-            </div></th>
-            <th><div class="sol-col">
-              <i class="fa-solid fa-wallet"style="font-size: 60px"></i>
-              <h2>HOORAY THIS IS THE DAY</h2>
-              <small>Welcome to the thing for the thing .</small>
-            </div></th>
-            <th><div class="sol-col">
-              <i class="fa-solid fa-phone"style="font-size: 60px"></i>
-              <h2>HOORAY THIS IS THE DAY</h2>
-              <small>Welcome to the thing for the thing .</small>
-            </div></th>
+            <th>
+              <div class="sol-col">
+                <i class="fa-solid fa-briefcase" style="font-size: 60px"></i>
+                <h2>HOORAY THIS IS THE DAY</h2>
+                <small>Welcome to the thing for the thing .</small>
+              </div>
+            </th>
+            <th>
+              <div class="sol-col">
+                <i class="fa-solid fa-wallet" style="font-size: 60px"></i>
+                <h2>HOORAY THIS IS THE DAY</h2>
+                <small>Welcome to the thing for the thing .</small>
+              </div>
+            </th>
+            <th>
+              <div class="sol-col">
+                <i class="fa-solid fa-phone" style="font-size: 60px"></i>
+                <h2>HOORAY THIS IS THE DAY</h2>
+                <small>Welcome to the thing for the thing .</small>
+              </div>
+            </th>
           </tr>
           <tr>
-            <td><div class="sol-col">
-              <i class="fa-solid fa-file-lines"style="font-size: 60px"></i>
-              <h2>HOORAY THIS IS THE DAY</h2>
-              <small>Welcome to the thing for the thing .</small>
-            </div></td>
-            <td><div class="sol-col">
-              <i class="fa-solid fa-mug-saucer"style="font-size: 60px"></i>
-              <h2>HOORAY THIS IS THE DAY</h2>
-              <small>Welcome to the thing for the thing .</small>
-            </div></td>
-            <td><div class="sol-col">
-              <i class="fa-solid fa-glasses" style="font-size: 60px"></i>
-              <h2>HOORAY THIS IS THE DAY</h2>
-              <small>Welcome to the thing for the thing .</small>
-            </div></td>
+            <td>
+              <div class="sol-col">
+                <i class="fa-solid fa-file-lines" style="font-size: 60px"></i>
+                <h2>HOORAY THIS IS THE DAY</h2>
+                <small>Welcome to the thing for the thing .</small>
+              </div>
+            </td>
+            <td>
+              <div class="sol-col">
+                <i class="fa-solid fa-mug-saucer" style="font-size: 60px"></i>
+                <h2>HOORAY THIS IS THE DAY</h2>
+                <small>Welcome to the thing for the thing .</small>
+              </div>
+            </td>
+            <td>
+              <div class="sol-col">
+                <i class="fa-solid fa-glasses" style="font-size: 60px"></i>
+                <h2>HOORAY THIS IS THE DAY</h2>
+                <small>Welcome to the thing for the thing .</small>
+              </div>
+            </td>
           </tr>
         </table>
       </div>
 
     </section>
-    <section class = "why-zilco">
-      <div class = "why-banner">
+    <section class="why-zilco">
+      <div class="why-banner">
         <h1> This is the why section</h1>
       </div>
       <table>
-        <th><div class = "why-col">
-         <h1>Go get 'em</h1> 
-        </div></th>
-        <th><div class = "why-col">
-          <h1>We got 'em</h1> 
-         </div></th>
-        <th><div class = "why-col">
-          <h1>We done got 'em good</h1> 
-         </div></th>
+        <th>
+          <div class="why-col">
+            <h1>Go get 'em</h1>
+          </div>
+        </th>
+        <th>
+          <div class="why-col">
+            <h1>We got 'em</h1>
+          </div>
+        </th>
+        <th>
+          <div class="why-col">
+            <h1>We done got 'em good</h1>
+          </div>
+        </th>
       </table>
-
     </section>
+    <!-- <p><code>wrapAround: true</code></p> -->
+
+    <!-- Flickity HTML init -->
+  <section class="carousel" >
+    <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+      <div class="gallery-cell"><img src="zilco-tech/Surface-Laptop-Studio-10.webp"></div>
+      <div class="gallery-cell"><div><img src="zilco-tech/pexels-andrea-piacquadio-3756681.jpg"></div></div>
+      <div class="gallery-cell"><div><img src="zilco-tech/pexels-andrea-piacquadio-927022.jpg"></div></div>
+      <div class="gallery-cell"><div><img src="zilco-tech/pexels-antonio-batinić-4164418.jpg"></div></div>
+      <!-- <div class="gallery-cell"></div> -->
+    </div>
+  </section>
   </div>
   <script>
     var lightbulb = document.getElementById("lightbulb")
