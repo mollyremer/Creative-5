@@ -10,6 +10,7 @@
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  -->
   <script src="https://kit.fontawesome.com/2927513fc2.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js" crossorigin="anonymous"></script>
+  <script src="magic.js"></script>
   <title>Document</title>
 </head>
 
@@ -63,7 +64,7 @@
           </div>
           <!-- <div class="color-block">
           </div> -->
-          <h1>All the technological solutions you need in one place. </h1>
+          <h1>Automate your daily tasks. </h1>
           <div class="sub-title>">
             <h4> Discover what makes us different.</h4>
             <button href="#" class="click-here">Learn More</button>
@@ -135,22 +136,17 @@
     </section>
     <section class="why-zilco">
       <div class="why-banner">
-        <h1> This is the why section</h1>
+        <h1> Common Questions and FAQ's</h1>
+        <div class= "question" onclick="question1()"> <h1>What is the cost like?</h1> </div>
+        <div class= "question" onclick="question2()"> <h1>Are downloads required?</h1> </div>
+        <div class= "question" onclick="question3()"> <h1>What if the program has issues?</h1> </div>
+        <div class= "question" onclick="question4()"> <h1> Will my data be secure?</h1> </div>
+        <div class= "question" onclick="question5()"> <h1> How long will it take?</h1> </div>
       </div>
       <table>
         <th>
           <div class="why-col">
-            <h1>Go get 'em</h1>
-          </div>
-        </th>
-        <th>
-          <div class="why-col">
-            <h1>We got 'em</h1>
-          </div>
-        </th>
-        <th>
-          <div class="why-col">
-            <h1>We done got 'em good</h1>
+            <h1>Choose a question.</h1>
           </div>
         </th>
       </table>
@@ -160,13 +156,14 @@
     <!-- Flickity HTML init -->
   <section class="carousel" >
     <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-      <div class="gallery-cell"><img src="zilco-tech/Surface-Laptop-Studio-10.webp"></div>
-      <div class="gallery-cell"><div><img src="zilco-tech/pexels-andrea-piacquadio-3756681.jpg"></div></div>
-      <div class="gallery-cell"><div><img src="zilco-tech/pexels-andrea-piacquadio-927022.jpg"></div></div>
-      <div class="gallery-cell"><div><img src="zilco-tech/pexels-antonio-batinić-4164418.jpg"></div></div>
+      <div class="gallery-cell"><h1>AUTOMATED</h1><iframe width = "950" height = "600" src = "zilco-tech/fast_video.mp4"></iframe></div>
+      <div class="gallery-cell"><h1>WITHOUT AUTOMATION</h1><iframe class = "slow-vid" width = "950" height = "600" src = "zilco-tech/slow_video.mp4"></iframe></div>
       <!-- <div class="gallery-cell"></div> -->
     </div>
   </section>
+  <footer>
+    Here is the end of the page.
+  </footer>
   </div>
   <script>
     var lightbulb = document.getElementById("lightbulb")

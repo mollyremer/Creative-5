@@ -214,21 +214,75 @@ main {
 {
   margin: 40px;
   display: flex;
-  justify-content: center;
-
+  justify-content: space-around;
+  
 }
 
 .why-banner
 {
+  text-align: center;
+  display: flex;
 
+  flex-direction: column;
 }
+.question
+{
+  border: 1px solid black;
+  background: #27757D;
+  color: white;
+  border-radius: 30px;
+  margin:20px;
+  font-size: 15px;
+  padding: 10px;
+  cursor: pointer;
+  transition: .4s;
+}
+.question h1::after
+{
+  content: '';
+  display: block;
+  width: 0%;
+  transition: .4s;
+  background: #fff;
+  height: 2px;
+  margin: auto;
+}
+.question h1:hover::after
+{
+  width: 100%;
+}
+.question:hover{
+  transform: scale(1.1)
+}
+
 .why-zilco th
 {
   padding: 30px;
 }
+.why-col
+{
+  font-size: 50px;
+  width: 100%;
+  color: white;
+  
+}
+
+.why-zilco table{
+  background: gray;
+  transition: .5s;
+  border-radius: 10px;
+  
+}
+.why-zilco table:hover {
+  -webkit-box-shadow: 0px 0px 64px 5px rgba(0,0,0,0.5); 
+  box-shadow: 0px 0px 64px 5px rgba(0,0,0,0.5);
+  transform: scale(1.1)
+}
+
+
 
 /* ---------------------------------------------------- CAROSEL -------------------------------------------- */
-.carosel 
+.carousel 
 {
   margin: 20px 0 20px;
 }
@@ -244,7 +298,9 @@ main {
   background: white;
   counter-increment: none;
   border-radius: 20px;
-  opacity: 0.7;
+  text-align: center;
+
+  /* opacity: 0.7; */
   /* border: 3px solid red; */
 }
 
@@ -253,7 +309,7 @@ main {
   height: 700px;
   width: 100%;
   border-radius:20px;
-   opacity: 0.75;
+   /* opacity: 0.75; */
 } 
 
 .gallery-cell h1{
@@ -269,6 +325,21 @@ main {
   line-height: 200px;
   font-size: 80px;
   color: white;
+}
+
+.slow-vid
+{
+  opacity: .5;
+  filter: grayscale(50%);
+}
+
+/* -----------------------------------------------FOOTER----------------------------------------------- */
+
+footer
+{
+  padding: 40px;
+  height: 50vh;
+  background: gray;
 }
 
 /*--------------------------------------------------NAV---------------------------------------------*/
