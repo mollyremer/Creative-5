@@ -1,0 +1,43 @@
+@media (max-width: 1000px) {
+  /* ---------------------MAIN----------------------- */
+  main {
+    height: auto;
+  }
+  .full-width-menu {
+    display: none;
+  }
+  .header {
+    width: 20vw;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .col1 {
+    width: 80vw;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .click-here {
+    width: 30vw;
+  }
+  /* ------------------------------SOLUTIONS------------------------ */
+  .solutions {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .sol-banner {
+    wi
+  }
+
+  .sol-col {
+
+  }
+  .sol-col-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .sol-banner h1 {
+    font-size: 5vw;
+  }
+}
