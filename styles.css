@@ -153,32 +153,38 @@ main {
 .solutions
 {
   margin: 100px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   background-image: linear-gradient(#086972, white);
   color: white;
   border-radius: 10px;
   height: 120vh;
   -webkit-box-shadow: 0px 0px 64px 5px rgba(0,0,0,0.5); 
   box-shadow: 0px 0px 64px 5px rgba(0,0,0,0.5);
+  height: auto;
 }
 .sol-banner
 {
   width: 100%;
   padding: 50px;
   text-align: center;
+  font-size: 2vw;
 }
 
-.sol-col
-{
-  padding: 50px;
-  
-}
 .sol-col-container
 {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
+  height: auto;
+}
+.sol-col
+{
+  padding: 50px;
+  flex-basis: 30%;
+  margin: 20px;
   
 }
 .sol-banner h1
@@ -318,6 +324,7 @@ footer
 {
   padding: 40px;
   height: 50vh;
+  margin-top: 20px;
   background: gray;
 }
 
@@ -457,6 +464,7 @@ footer
 
 html, body {
   height: 100%;
+  width: 100%;
 }
 
 a,
