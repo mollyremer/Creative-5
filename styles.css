@@ -156,6 +156,8 @@ main {
   margin: 50px;
   display: flex;
   justify-content: center;
+  background: #EBEBEB;
+  border-radius: 5px;
 }
 .content2
 {
@@ -263,6 +265,7 @@ main {
   padding: 10px;
   cursor: pointer;
   transition: .4s;
+  
 }
 .question h1::after
 {
