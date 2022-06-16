@@ -70,12 +70,13 @@ footer
 }
 .page {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background: #fdfdfd;
   font-family: "Encode Sans Condensed", sans-serif;
   font-weight: 600;
   letter-spacing: 0.03em;
   color: #212121;
+  /* border: 2px solid blue; */
 }
 
 header {
@@ -294,3 +295,11 @@ img {
   height: auto;
   width: 100%;
 }
+
+@media (max-width: 1000px) {
+
+
+
+
+}
+
