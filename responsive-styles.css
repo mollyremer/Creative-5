@@ -93,4 +93,12 @@
     /* padding-left: 10px;
     padding-right: 10px; */
   }
+  footer
+  {
+    /* margin-top: 150px; */
+  }
+  .gallery-cell
+  {
+    padding-bottom: 300px;
+  }
 }
