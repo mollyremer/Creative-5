@@ -1,3 +1,4 @@
+
 function question1() {
     const query = document.querySelector(".why-col")
     query.innerHTML = "<p>Just send us an email with what your <br> business needs to automate. <br> We'll reach out to you!</p>"
